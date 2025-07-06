@@ -8,7 +8,7 @@ For more details on Break, please refer to our [TACL 2020 paper](#paper), and to
 
 <center>
     <a href="https://allenai.github.io/Break/images/qdmr01.png"> 
-        <img src="images/qdmr01.png" height="170">
+        <img src="images/monaco_logo.jpeg" height="170">
       </a>
 </center>
 
