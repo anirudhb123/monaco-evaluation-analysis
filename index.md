@@ -141,6 +141,4 @@ To view (many) more question decomposition examples, [explore Break](/explore.md
 
 ## **Download**
 
-- For the full documentation of the dataset and its format please refer to our [Github repository](https://github.com/allenai/Break).  
-- Click here to [download Break](https://github.com/allenai/Break/raw/master/break_dataset/Break-dataset.zip).
-
+- For the full documentation of the dataset and its format please refer to our [HuggingFace repository](https://huggingface.co/MoNaCo-Release/).
