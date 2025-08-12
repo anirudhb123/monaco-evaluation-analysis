@@ -39,10 +39,6 @@ Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gardner, Yoav Goldberg, Daniel Deutch
 
 ## **Authors**
 
-> Talent wins games, but teamwork and intelligence wins championships.
-
-*Michael Jordan*
-
 <div>
 <div class="card">
   <img src="images/authors/author_01.jpg" alt="Avatar" style="width:100%">
@@ -80,7 +76,7 @@ Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gardner, Yoav Goldberg, Daniel Deutch
   <img src="images/authors/author_05.jpg" alt="Avatar" style="width:100%">
   <div class="container">
     <a href="https://www.cis.upenn.edu/~danroth/">
-    <h4><b>Dan Roth</b></h4>  
+    <h4><b>Dan <br>Roth</b></h4>  
     </a>
   </div>
 </div>
