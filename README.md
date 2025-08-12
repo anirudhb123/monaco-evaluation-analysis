@@ -23,7 +23,7 @@ For the MoNaCo data, please refer to our HuggingFace repository at: [https://hug
 
 ### Changelog
 - `8/18/2020` The codebase will be released soon.
-- `8/18/2020` MCheck our the official Ai2 blogpost [available here](https://arxiv.org/abs/2001.11770v1).
+- `8/18/2020` MCheck our the official [Ai2 blogpost](https://arxiv.org/abs/2001.11770v1).
 - `8/18/2020` MoNaCo has been accepted to appear in TACL, check our preprint [available here](https://arxiv.org/abs/2001.11770v1).
 - `8/18/2020` The full Break dataset has been released see the [HuggingFace dataset](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark)!
 
