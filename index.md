@@ -55,29 +55,21 @@ Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gardner, Yoav Goldberg, Daniel Deutch
 <div class="card">
   <img src="images/authors/author_02.jpg" alt="Avatar" style="width:100%">
   <div class="container">
-    <a href="https://mega002.github.io/">
-    <h4><b>Mor <br>Geva</b></h4>  
+    <a href="https://harshtrivedi.me/">
+    <h4><b>Harsh <br>Trivedi</b></h4>  
     </a>
   </div>
 </div>
 <div class="card">
   <img src="images/authors/author_03.jpg" alt="Avatar" style="width:100%">
   <div class="container">
-    <a href="https://sites.google.com/view/ag1988/home">
-    <h4><b>Ankit Gupta</b></h4>  
+    <a href="https://mega002.github.io/">
+    <h4><b>Mor <br>Geva</b></h4>  
     </a>
   </div>
 </div>
 <div class="card">
   <img src="images/authors/author_04.jpg" alt="Avatar" style="width:100%">
-  <div class="container">
-    <a href="https://allenai.org/team/mattg/">
-    <h4><b>Matt Gardner</b></h4>  
-    </a>
-  </div>
-</div>
-<div class="card">
-  <img src="images/authors/author_05.jpg" alt="Avatar" style="width:100%">
   <div class="container">
     <a href="https://www.cs.bgu.ac.il/~yoavg/uni/">
     <h4><b>Yoav Goldberg</b></h4>  
@@ -85,18 +77,34 @@ Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gardner, Yoav Goldberg, Daniel Deutch
   </div>
 </div>
 <div class="card">
+  <img src="images/authors/author_05.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <a href="https://www.cis.upenn.edu/~danroth/">
+    <h4><b>Dan Roth</b></h4>  
+    </a>
+  </div>
+</div>
+<div class="card">
   <img src="images/authors/author_06.jpg" alt="Avatar" style="width:100%">
   <div class="container">
-    <a href="https://www.cs.tau.ac.il/~danielde/">
-    <h4><b>Daniel Deutch</b></h4>  
+    <a href="https://tusharkhot.github.io/">
+    <h4><b>Tushar Khot</b></h4>  
     </a>
   </div>
 </div>
 <div class="card">
   <img src="images/authors/author_07.jpg" alt="Avatar" style="width:100%">
   <div class="container">
-    <a href="http://www.cs.tau.ac.il/~joberant/">
-    <h4><b>Jonathan Berant</b></h4>  
+    <a href="https://www.cs.cornell.edu/~sabhar/">
+    <h4><b>Ashish Sabharwal</b></h4>  
+    </a>
+  </div>
+</div>
+<div class="card">
+  <img src="images/authors/author_08.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <a href="https://nlp.biu.ac.il/~rtsarfaty/onlp">
+    <h4><b>Reut Tsarfaty</b></h4>  
     </a>
   </div>
 </div>
