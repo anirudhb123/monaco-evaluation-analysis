@@ -15,7 +15,7 @@ For the MoNaCo data, please refer to our HuggingFace repository at: [https://hug
 ](https://arxiv.org/abs/2001.11770v1)
 	* **Code**: Coming soon
 	* **Leaderboard**:  
-		* Table:  [Leaderboard](https://leaderboard.allenai.org/break/)
+		* [Leaderboard table](https://leaderboard.allenai.org/break/)
 		* LLM-judge prompt: [https://github.com/tomerwolgithub/monaco/tree/main/prompts](https://github.com/tomerwolgithub/monaco/tree/main/prompts)
 	* **Website**: [https://tomerwolgithub.github.io/monaco/](https://tomerwolgithub.github.io/monaco/)
 	* **Huggingface dataset**: [https://huggingface.co/datasets/allenai/MoNaCo_Benchmark](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark)
