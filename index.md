@@ -24,9 +24,9 @@ For the full dataset statistics please refer to our [repository](https://github.
 
 ## **Paper**
 
-[**Break It Down: A Question Understanding Benchmark**](https://arxiv.org/abs/2001.11770v1)  
-Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gardner, Yoav Goldberg, Daniel Deutch and Jonathan Berant  
-*Transactions of the Association for Computational Linguistics (TACL), 2020*  
+[**MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents**](https://arxiv.org/abs/2001.11770v1)  
+Tomer Wolfson, Harsh, Trivedi, Mor Geva, Yoav Goldberg, Dan Roth, Tushar Khot, Ashish Ashish Sabharwal and Reut Tsarfaty  
+*To appear in the Transactions of the Association for Computational Linguistics (TACL), 2025*  
 
 ```markdown
 @article{wolfson-etal-2025-monaco,
