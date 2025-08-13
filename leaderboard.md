@@ -5,7 +5,7 @@ Note that *high-level* QDMRs are less coarse in their decomposition, as they are
 
 Rank | Model | Date | Link | F1 | Precision | Recall 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-1 | o3 | May, 2025 | [🌐](https://openai.com/index/introducing-o3-and-o4-mini/) | **<u>61.18</u>** | **68.10**  | **59.54** 
+1 | o3 | May, 2025 | [🌐](https://openai.com/index/introducing-o3-and-o4-mini/) | **<u>61.18</u>** | **<u>68.10</u>**  | **<u>59.54</u>** 
 2 | GPT-5 (medium reasoning) | August 7, 2025 | [🌐](https://openai.com/index/introducing-gpt-5/) | 60.11 | 66.38 | 58.98
 3 | Gemini 2.5-Pro | July, 2025 | [🌐](https://deepmind.google/models/gemini/pro/) | 59.11 | 65.02 | 58.14
 4 | Gemini 2.5-Pro | July, 2025 | [🌐](https://deepmind.google/models/gemini/pro/) | 55.05 | 65.02 | 58.14
