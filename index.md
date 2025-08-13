@@ -40,7 +40,7 @@ While our paper centers on QA evaluation, MoNaCo questions' breadth and depth ma
 <br>
 <center>
     <a href="https://tomerwolgithub.github.io/monaco/images/image02_reasoning.png"> 
-        <img src="images/image02_reasoning.png"" height="250">
+        <img src="images/image02_reasoning.png" height="250">
       </a>
 </center><br>
 
