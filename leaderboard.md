@@ -12,8 +12,8 @@ Rank | Model | Date | Link | F1 | Precision | Recall
 x |o4-mini | April, 2025 | [🌐](https://openai.com/index/introducing-o3-and-o4-mini/) |  54.92 | 62.50 | 53.01
 x | o3-mini | April, 2025 | [🌐](https://openai.com/index/openai-o3-mini/) | 48.75 | 59.29 | 46.19
 x | Claude 4-Opus | July, 2025 | [🌐](https://www.anthropic.com/news/claude-4) | 55.03 | 62.28 | 53.47
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
+x | Gemini 2.5-Flash | July, 2025 | [🌐](https://deepmind.google/models/gemini/flash/) | 52.01 | 58.10 | 50.60
+x | Deepseek-R1 | April 25, 2025 | [🌐](https://huggingface.co/deepseek-ai/DeepSeek-R1) | 53.82 | 62.52 | 51.50
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
