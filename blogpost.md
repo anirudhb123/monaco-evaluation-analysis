@@ -17,6 +17,17 @@ MoNaCo addresses this gap, presenting realistic questions whose solution spans u
 </center>
 
 
+In our experiments, we tested 15 frontier LLMs on MoNaCo, including GPT-5, o3, Claude Opus 4, Gemini 2.5 Pro, and Deepseek-R1. All models struggled, with the top-performing LLM, o3, reaching an F1 score of 61.2% while answering only 38.7% of examples with a perfect score.
+
+We also observe that as solutions to questions entail reasoning over more intermediate answers or require more evidence sources, model performance decreases substantially.
+
+<center>
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_02.png"> 
+        <img src="images/blog/blogpost_02.png" height="500">
+     </a>
+</center>
+
+
 ### Representing the Meaning of Questions
 
 Thinking how to represent the meaning of complex questions, we considered three key features:
