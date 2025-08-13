@@ -26,22 +26,23 @@ MoNaCo is a question answering benchmark of natural time-consuming questions, wh
 
 We collected 1,315 human-written questions that reflect the goals of real-world users (political scientist, sports buff, amateur chef, etc.). Each question is also manually annotated with its gold-standard reasoning chain containing all: (1) intermediate questions, (2) answers and (3) Wikipedia evidence.
 
-We evaluated MoNaCo in a question-answering setting, testing 15 frontier language models including GPT-5, o3, Claude Opus 4, Gemini 2.5 Pro, DeepSeek R1. These models predictions are released alongside our QA data, to help researchers better assess models factuality. To reproduce our evaluation, please refer to our LLM-as-judge prompt and evaluation script [available here](https://github.com/tomerwolgithub/monaco/tree/main/prompts). MoNaCo was released in August 2025, when the top performing model, OpenAI o3 scores only 61% F1 while reaching a perfect score on only 38.7% of the examples. 
-
-While our paper centers on QA evaluation, MoNaCo questions' breadth and depth makes it ideal as an evaluation benchmark for at least five different settings:
-
-* Evaluating models’ parametric knowledge and reasoning
-* Measuring complex reasoning over long contexts, where all of the evidence docs are provided in the context
-* Multi-document retrieval performance
-* End-to-end retrieval-augmented generation (RAG)
-* Training Deep Research-like systems, using the gold standard reasoning chains
-
-<br>
 <center>
     <a href="https://tomerwolgithub.github.io/monaco/images/image02_reasoning.png"> 
         <img src="images/image02_reasoning.png" height="250">
       </a>
 </center><br>
+
+We evaluated MoNaCo in a question-answering setting, testing 15 frontier language models including GPT-5, o3, Claude Opus 4, Gemini 2.5 Pro, DeepSeek R1. These models predictions are released alongside our QA data, to help researchers better assess models factuality. To reproduce our evaluation, please refer to our LLM-as-judge prompt and evaluation script [available here](https://github.com/tomerwolgithub/monaco/tree/main/prompts). MoNaCo was released in August 2025, when the top performing model, OpenAI o3 scores only 61% F1 while reaching a perfect score on only 38.7% of the examples. 
+
+Our paper centers on QA evaluation however, MoNaCo breadth and depth makes it an ideal evaluation benchmark for at least five settings:
+
+* Evaluating models’ **parametric knowledge** and reasoning
+* Measuring **complex reasoning over long contexts**, where all of the evidence docs are provided in the context
+* **Multi-document retrieval** performance
+* End-to-end **retrieval-augmented generation** (RAG)
+* **Training Deep Research-like systems**, using the gold standard reasoning chains
+
+<br>
 
 
 ## **Paper**
