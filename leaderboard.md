@@ -1,7 +1,6 @@
 ## **MoNaCo Leaderboard**
 
-Below you will find examples of questions and their QDMRs found in Break.   
-Note that *high-level* QDMRs are less coarse in their decomposition, as they are geared towards reading comprehension tasks. For more details on *high-level* QDMRs please refer to [our paper](https://allenai.github.io/Break/#paper).
+Below are the closed-book setting results of models on the full MoNaCo benchmark i.e., over all 1,315 questions. To reproduce our evaluation, please refer to our LLM-as-judge prompt and evaluation script [available here](https://github.com/tomerwolgithub/monaco/tree/main/prompts). Note that we originally used GPT-4.1 as our "judge" language model.
 
 Rank | Model | Date | Link | F1 | Precision | Recall 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
