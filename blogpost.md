@@ -99,7 +99,7 @@ The intermediate answers in MoNaCo are supported by evidence from 36K distinct W
 
 <center>
     <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_07.png"> 
-        <img src="images/blog/blogpost_07.png" height="300">
+        <img src="images/blog/blogpost_07.png" height="250">
      </a>
 </center>
 
