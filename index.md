@@ -15,15 +15,15 @@ For more details on Break, please refer to our [TACL 2025 paper](#paper), and to
 ## **Overview**
 
 <center>
-    <a href="https://allenai.github.io/Break/images/image01_questions.png"> 
-        <img src="images/monaco_logo.jpeg" height="170">
+    <a href="https://tomerwolgithub.github.io/monaco/images/image01_questions.png"> 
+        <img src="images/image01_questions.png" height="170">
       </a>
 </center>
 
 
 <center>
-    <a href="https://allenai.github.io/Break/images/image02_reasoning.png"> 
-        <img src="images/monaco_logo.jpeg" height="170">
+    <a href="https://tomerwolgithub.github.io/monaco/images/image02_reasoning.png"> 
+        <img src="images/image02_reasoning.png"" height="170">
       </a>
 </center>
 
