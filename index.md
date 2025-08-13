@@ -19,9 +19,8 @@ For more details on Break, please refer to our [TACL 2025 paper](#paper), and to
     <a href="https://tomerwolgithub.github.io/monaco/images/image01_questions.png"> 
         <img src="images/image01_questions.png" height="170">
       </a>
-</center><br>
+</center>
 
-SWE-bench tests AI systems' ability to solve GitHub issues.
 
 MoNaCo is a question answering benchmark of natural time-consuming questions, where each question requires information from dozens of Wikipedia pages.
 
@@ -37,7 +36,7 @@ While our paper centers on QA evaluation, MoNaCo questions' breadth and depth ma
 * End-to-end retrieval-augmented generation (RAG)
 * Training Deep Research-like systems, using the gold standard reasoning chains
 
-
+<br>
 <center>
     <a href="https://tomerwolgithub.github.io/monaco/images/image02_reasoning.png"> 
         <img src="images/image02_reasoning.png"" height="250">
