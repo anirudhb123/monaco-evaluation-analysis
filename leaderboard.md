@@ -5,7 +5,6 @@ Note that *high-level* QDMRs are less coarse in their decomposition, as they are
 
 Rank | Model | Date | Link | F1 | Precision | Recall 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-1 | Curriculum-trained CopyNet <br>*Chris Coleman and Alex Reneau,*<br>*Northwestern University* | Jul 1, 2020 | 🌐 | **`0.163`** | **`_`**  | **`0.757`** 
-2 | CopyNet <br>*([Wolfson et al., TACL 2020](https://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | 🌐 | `0.157` | **`0.748`**  | `0.746`
-3 | RuleBased <br>*([Wolfson et al., TACL 2020](https://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | 🌐 | `0.003` | `0.508`  | `0.506`
+1 | o3 | May, 2025 | [🌐](https://openai.com/index/introducing-o3-and-o4-mini/) | **61.18`** | **68.10**  | **59.54** 
+2 | GPT-5 (medium reasoning) | August 7, 2025 | [🌐](https://openai.com/index/introducing-gpt-5/) | 60.11 | 66.38 | 58.98
 
