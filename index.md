@@ -19,7 +19,7 @@ For more details on Break, please refer to our [TACL 2025 paper](#paper), and to
     <a href="https://tomerwolgithub.github.io/monaco/images/image01_questions.png"> 
         <img src="images/image01_questions.png" height="170">
       </a>
-</center>
+</center><br>
 
 
 MoNaCo is a question answering benchmark of natural time-consuming questions, where each question requires information from dozens of Wikipedia pages.
