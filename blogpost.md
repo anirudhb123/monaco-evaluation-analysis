@@ -83,4 +83,46 @@ Collecting realistic and many-step questions “in the wild” for a benchmark l
 For MoNaCo, we relied on annotators to write questions that reflect real-world users’ information-seeking goals. Specifically, we asked Amazon Mechanical Turk workers to write questions that would interest a particular target persona. By priming workers to assume a specific persona and not use pre-defined templates, we encouraged these workers to come up with realistic questions—helping diversify our data.
 
 
+<center>
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_06.png"> 
+        <img src="images/blog/blogpost_06.png" height="200">
+     </a>
+</center>
+
+In total, we collected 1,315 complex questions, along with their intermediate steps, answers, and supporting evidence. This data includes over 90K intermediate questions with 8.5K list questions—each list having 16.2 answers on average and a median of 5 answers. For comparison, the list QA benchmarks [QAMPARI](https://arxiv.org/abs/2205.12665) and [QUEST](https://aclanthology.org/2023.acl-long.784/) have 2K and 3.4K manually-written questions, **making MoNaCo the largest benchmark of human-written list questions**. 
+
+
+MoNaCo also contains 40K Boolean (yes/no) questions—**much more than past benchmarks** such as [BoolQ](https://aclanthology.org/N19-1300/) and [StrategyQA](https://aclanthology.org/2021.tacl-1.21/), which have 15.9K and 2.8K questions, respectively.
+
+The intermediate answers in MoNaCo are supported by evidence from 36K distinct Wikipedia pages, with each question supported by 43.3 documents on average (median of 12). Documents are either a sentence (29.5%), a table (67.8%), or a list (2.7%). This underscores the multimodal nature of MoNaCo, as answering its questions requires reasoning across both paragraphs and tables.
+
+
+<center>
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_07.png"> 
+        <img src="images/blog/blogpost_07.png" height="300">
+     </a>
+</center>
+
+
+### **Observations on Multi-Document RAG**
+
+When evaluating models in a retrieval setting, we observe two interesting phenomena. 
+
+First, in an “Oracle retrieval” setting, where all the gold evidence documents are provided to the model as input, models experience a 10-point improvement compared to the closed-book setting (no evidence provided). Nevertheless, these models reach only 58.7% F1—far from a perfect score. This indicates that even with all of the relevant knowledge provided, models still struggle with the long-context reasoning that MoNaCo questions entail. 
+
+
+Second, in an “end-to-end RAG” setting (with a BM25 retriever), models experience a sharp drop in performance compared to the closed-book setting. While retrieved documents may only be partially relevant, our RAG prompt explicitly instructs LLMs to ignore the documents in such cases. This lack of [“retrieval robustness”](https://openreview.net/forum?id=ZS4m74kZpH) has been observed in weaker models, but we find that the limitation persists even in much stronger LLMs.
+
+<center>
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_08.png"> 
+        <img src="images/blog/blogpost_08.png" height="200">
+     </a>
+</center>
+
+
+### **Conclusion**
+
+MoNaCo can evaluate how well LLMs answer questions that require retrieving and reasoning over dozens—or even hundreds—of pieces of evidence. We hope that our work advances research on more factual and attributable AI systems. 
+
+We invite researchers to evaluate the capabilities of LLMs and retrievers on MoNaCo and to provide their feedback. Visit our [website](https://tomerwolgithub.github.io/monaco) and read the [paper](https://tomerwolgithub.github.io/monaco) to learn more about the MoNaCo benchmark, which is available on [HuggingFace](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark).
 
