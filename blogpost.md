@@ -11,7 +11,7 @@ MoNaCo addresses this gap, presenting realistic questions whose solution spans u
 
 
 <center>
-    <a href="https://allenai.github.io/Break/images/blogpost_01.png"> 
+    <a href="https://allenai.github.io/Break/images/blog/blogpost_01.png"> 
         <img src="images/blog/" height="500">
      </a>
 </center>
