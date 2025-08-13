@@ -28,7 +28,7 @@ We also observe that as solutions to questions entail reasoning over more interm
 </center>
 
 
-### About the MoNaCo Benchmark
+### **About the MoNaCo Benchmark**
 
 We created MoNaCo as a QA benchmark with questions that are:  
 
@@ -54,37 +54,33 @@ MoNaCo’s breadth and depth makes it ideal as an LLM benchmark for at least fiv
 * **Training Deep Research-like systems**, using the gold standard reasoning chains
 
 
-### The Data
+### **Human-Annotated Reasoning Chains**
 
-QDMR serves as the formalism for creating Break, a dataset aimed at probing question understanding models. It features 83,978 natural language questions, annotated with their Question Decomposition Meaning Representations. Break contains human composed questions, sampled from 10 leading question-answering benchmarks:
+Unlike other QA benchmarks, all questions in MoNaCo come with gold-standard, human-annotated reasoning chains. Namely, for each question, we provide all the intermediate steps for its solution, as well as the answers and supporting evidence documents. 
 
-* **Semantic Parsing**: [Academic](https://github.com/jkkummerfeld/text2sql-data), [ATIS](https://github.com/jkkummerfeld/text2sql-data), [GeoQuery](https://github.com/jkkummerfeld/text2sql-data), [Spider](https://yale-lily.github.io/spider)
-* **Visual Question Answering**: [CLEVR-humans](https://cs.stanford.edu/people/jcjohns/clevr/), [NLVR2](http://lil.nlp.cornell.edu/nlvr/)
-* **Reading Comprehension (and KB-QA)**: [ComQA](http://qa.mpi-inf.mpg.de/comqa/), [ComplexWebQuestions](https://www.tau-nlp.org/compwebq), [DROP](https://allennlp.org/drop), [HotpotQA](https://hotpotqa.github.io/)  
-
-Break was collected through crowdsourcing, with a user interface that allows us to train crowd workers to produce quality decompositions. Validating the quality of annotated structures reveals 97.4% to be correct. Our paper ["Break It Down: A Question Understanding Benchmark"](https://allenai.github.io/Break/#paper), accepted for publication in [TACL](https://transacl.org/index.php/tacl), has a full description of the data collection process. To see some more examples from the dataset, please check out [the Break website](https://allenai.github.io/Break/).   
-
-We present some statistics of the question types and operators found in Break examples. Operator distribution, in particular, helps illustrate the reasoning types required by different QA tasks. For the full statistics of Break please refer to our [dataset repository](https://github.com/allenai/Break).
+Reasoning chains are expressed as a series of [decomposition steps](https://aclanthology.org/2020.tacl-1.13/). In the figure below, we see part of the decomposition of an example question: “In European countries, are current left-wing political parties more likely to be headed by women than right-wing ones?” Each step is either an intermediate question (**qa_model**) or a Python function representing a query operation (**filter**, **count**). For question steps, we provide human-annotated answers and supporting sentences/tables from Wikipedia, while for query operation steps, we provide their full execution results. 
 
 <center>
-    <a href="https://allenai.github.io/Break/images/break_question_modalities.png"> 
-        <img src="images/break_question_modalities.png" height="300">
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_04.png"> 
+        <img src="images/blog/blogpost_04.png" height="300">
      </a>
 </center>
 
+Note that the reasoning chain of the example question would be extremely time-consuming for any person to follow. Answering this question entails reviewing all political parties in each European country to note their affiliation and the leader's gender, drawing on the equivalent of 719 Wiki pages.
+
 <center>
-    <a href="https://allenai.github.io/Break/images/break_op_distribution.png"> 
-        <img src="images/break_op_distribution.png" height="300">
-    </a>
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_05.png"> 
+        <img src="images/blog/blogpost_05.png" height="300">
+     </a>
 </center>
 
-### The *"Break It Down!"* Challenge
 
-Break is aimed at building systems that parse natural questions into their respective QDMR representations. We hope that this dataset, and its QDMR parsing challenge, will spur the development of future question understanding models. We encourage the NLP community to treat Break also as a resource for building better question answering systems.  
+### **Data Collection and Composition**
 
-Our research has shown that multi-hop QA models, using Break decompositions, greatly outperform a strong BERT-based baseline, which does not. Additionally, we provide [neural QDMR parsing models](https://allenai.github.io/Break/#leaderboard), trained on Break, that beat a rule-based baseline that employs dependency parsing and coreference resolution.  
-Visit the [Break website](https://allenai.github.io/Break/) to view the leaderboard and learn more.
+Collecting realistic and many-step questions “in the wild” for a benchmark like MoNaCo is hard. Users tend to shy away from entering such queries into search engines, and recording them from user-AI interactions—most of which are private—poses added challenges. 
 
 
+For MoNaCo, we relied on annotators to write questions that reflect real-world users’ information-seeking goals. Specifically, we asked Amazon Mechanical Turk workers to write questions that would interest a particular target persona. By priming workers to assume a specific persona and not use pre-defined templates, we encouraged these workers to come up with realistic questions—helping diversify our data.
 
-[1] Francis Jeffry Pelletier. 1994. "The principle of semantic compositionality." *Topoi, 13(1):11–24*.
+
+
