@@ -16,7 +16,7 @@ x | Gemini 2.5-Flash | 2025-07 | [🌐](https://deepmind.google/models/gemini/fl
 x | Deepseek-R1 | 2025-04 | [🌐](https://huggingface.co/deepseek-ai/DeepSeek-R1) | 53.82 | 62.52 | 51.50
 x | GPT-4 Turbo (few-shot) | 2024-05 | [🌐](https://platform.openai.com/docs/models/gpt-4-turbo) | 48.58 | 56.26 | 46.81
 x | Deepseek-V3 (few-shot) | 2025-05 | [🌐](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 55.04 | 62.31 | 53.37
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
+x | Llama 3.1-405B (few-shot) | 2025-03 | [🌐](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct) | 51.39 | 55.97 | 51.20
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
