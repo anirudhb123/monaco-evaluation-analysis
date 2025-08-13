@@ -28,30 +28,30 @@ We also observe that as solutions to questions entail reasoning over more interm
 </center>
 
 
-### Representing the Meaning of Questions
+### About the MoNaCo Benchmark
 
-Thinking how to represent the meaning of complex questions, we considered three key features:
-- Capturing the ***sequence of computation steps*** for answering the question
-- Capturing the meaning of a question, ***regardless of its context*** (text, image, DB)
-- Expressing the formalism in ***natural language***, making it easy to annotate by non-experts
+We created MoNaCo as a QA benchmark with questions that are:  
 
-We introduce Question Decomposition Meaning Representation (QDMR), inspired by DB query languages and by semantic parsing.
-In QDMR, complex questions are expressed through sub-questions (operators) that can be executed in sequence to answer the original question. Each QDMR operator either selects a set of entities, retrieves information about their attributes, or aggregates information over entities. Basically, we apply the intuition from DB query languages also to questions over images and text.
-By abstracting away a question's context, QDMR allows in principle to query *multiple sources* for the same question. A system could potentially answer *“Name the political parties of the most densely populated country”*, by first returning *“the most densely populated country”* using a DB query, then *“the political parties of #1”* using a QA model for text.
+1. **Realistic**, reflecting the information-seeking goals of real-world users
+2. **Time-consuming**, with questions that cannot be answered without potentially hundreds of intermediate facts
 
-Below are two examples of questions (over DB and images) with their respective QDMR representations. Note how the references to previous decomposition steps allow us to represent QDMR as a directed-acyclic-graph.  
-For the full description of the QDMR formalism please refer to [our paper](https://allenai.github.io/Break/#paper).
+For example, while the two MoNaCo questions below have succinct answers, they both require dozens of fact-finding steps:
 
 <center>
-    <p float="left">
-      <a href="https://allenai.github.io/Break/images/qdmr01.png"> 
-        <img src="images/qdmr01.png" height="190">
-      </a>
-      <a href="https://allenai.github.io/Break/images/qdmr02.png"> 
-        <img src="images/qdmr02.png" height="190">
-      </a>
-    </p>
+    <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_03.png"> 
+        <img src="images/blog/blogpost_03.png" height="300">
+     </a>
 </center>
+
+Overall, MoNaCo has 1,315 questions whose solutions involve many intermediate steps that span across dozens, and at times hundreds, of evidence documents. Compared to traditional QA benchmarks, the scope of MoNaCo questions is much broader. To solve them, models must be proficient at decomposing complex queries, locating hundreds of pieces of information, and reasoning, combining, and aggregating this data effectively.
+
+MoNaCo’s breadth and depth makes it ideal as an LLM benchmark for at least five different settings:
+
+* Evaluating models’ **parametric knowledge** and reasoning
+* Measuring complex **reasoning over long contexts**, where all of the evidence docs are provided in the context
+* **Multi-document retrieval** performance
+* End-to-end **retrieval-augmented generation** (RAG)
+* **Training Deep Research-like systems**, using the gold standard reasoning chains
 
 
 ### The Data
