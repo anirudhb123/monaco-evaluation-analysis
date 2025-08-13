@@ -32,9 +32,10 @@ We collected 1,315 human-written questions that reflect the goals of real-world 
       </a>
 </center><br>
 
-We evaluated MoNaCo in a question-answering setting, testing 15 frontier language models including GPT-5, o3, Claude Opus 4, Gemini 2.5 Pro, DeepSeek R1. These models predictions are released alongside our QA data, to help researchers better assess models factuality. To reproduce our evaluation, please refer to our LLM-as-judge prompt and evaluation script [available here](https://github.com/tomerwolgithub/monaco/tree/main/prompts). MoNaCo was released in August 2025, when the top performing model, OpenAI o3 scores only 61% F1 while reaching a perfect score on only 38.7% of the examples. 
+We evaluated MoNaCo in a question-answering setting, testing 15 frontier language models including GPT-5, o3, Claude Opus 4, Gemini 2.5 Pro, DeepSeek R1. These models predictions are released alongside our QA data, to help researchers better assess models factuality. To reproduce our evaluation, please refer to our LLM-as-judge prompt and evaluation script [available here](https://github.com/tomerwolgithub/monaco/tree/main/prompts). 
+MoNaCo was released in August 2025, when the top performing model, OpenAI o3 scores only 61% F1 while reaching a perfect score on only 38.7% of the examples. 
 
-Our paper centers on QA evaluation however, MoNaCo breadth and depth makes it an ideal evaluation benchmark for at least five settings:
+While our paper centers on QA evaluation, the breadth and depth of MoNaCo questions makes it an ideal evaluation benchmark for at least five settings:
 
 * Evaluating models’ **parametric knowledge** and reasoning
 * Measuring **complex reasoning over long contexts**, where all of the evidence docs are provided in the context
