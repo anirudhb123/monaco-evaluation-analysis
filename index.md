@@ -142,7 +142,7 @@ Tomer Wolfson, Harsh, Trivedi, Mor Geva, Yoav Goldberg, Dan Roth, Tushar Khot, A
 
 ## **Leaderboard**
 
-For the most up-to-date results please refer to out [MoNaCo Leaderboard page](https://tomerwolgithub.github.io/monaco/leaderboard.html).
+For the most up-to-date results please refer to the [MoNaCo Leaderboard page](https://tomerwolgithub.github.io/monaco/leaderboard.html).
 
 
 ## **Download**
