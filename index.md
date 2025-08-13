@@ -29,11 +29,20 @@ Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gardner, Yoav Goldberg, Daniel Deutch
 *Transactions of the Association for Computational Linguistics (TACL), 2020*  
 
 ```markdown
-@article{Wolfson2020Break,
-  title={Break It Down: A Question Understanding Benchmark},
-  author={Wolfson, Tomer and Geva, Mor and Gupta, Ankit and Gardner, Matt and Goldberg, Yoav and Deutch, Daniel and Berant, Jonathan},
-  journal={Transactions of the Association for Computational Linguistics},
-  year={2020},
+@article{wolfson-etal-2025-monaco,
+    title = "MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents",
+    author = "Wolfson, Tomer  and
+      Trivedi, Harsh  and
+      Geva, Mor  and
+      Goldberg, Yoav  and
+      Roth, Dan  and
+      Khot, Tushar  and
+      Sabharwal, Ashish  and
+      Tsarfaty, Reut",
+    journal = "Transactions of the Association for Computational Linguistics",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    year="2025",
 }
 ```
 
