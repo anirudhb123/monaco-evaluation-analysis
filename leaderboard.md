@@ -10,8 +10,8 @@ Rank | Model | Date | Link | F1 | Precision | Recall
 3 | Gemini 2.5-Pro | July, 2025 | [🌐](https://deepmind.google/models/gemini/pro/) | 59.11 | 65.02 | 58.14
 4 | Gemini 2.5-Pro | July, 2025 | [🌐](https://deepmind.google/models/gemini/pro/) | 55.05 | 65.02 | 58.14
 x |o4-mini | April, 2025 | [🌐](https://openai.com/index/introducing-o3-and-o4-mini/) |  54.92 | 62.50 | 53.01
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
+x | o3-mini | April, 2025 | [🌐](https://openai.com/index/openai-o3-mini/) | 48.75 | 59.29 | 46.19
+x | Claude 4-Opus | July, 2025 | [🌐](https://www.anthropic.com/news/claude-4) | 55.03 | 62.28 | 53.47
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
 x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
