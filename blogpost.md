@@ -11,8 +11,8 @@ MoNaCo addresses this gap, presenting realistic questions whose solution spans u
 
 
 <center>
-    <a href="https://allenai.github.io/Break/images/qdmr_motivation.png"> 
-        <img src="images/qdmr_motivation.png" height="500">
+    <a href="https://allenai.github.io/Break/images/blogpost_01.png"> 
+        <img src="images/blog/" height="500">
      </a>
 </center>
 
