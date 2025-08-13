@@ -124,5 +124,5 @@ Second, in an “end-to-end RAG” setting (with a BM25 retriever), models exper
 
 MoNaCo can evaluate how well LLMs answer questions that require retrieving and reasoning over dozens—or even hundreds—of pieces of evidence. We hope that our work advances research on more factual and attributable AI systems. 
 
-We invite researchers to evaluate the capabilities of LLMs and retrievers on MoNaCo and to provide their feedback. Visit our [website](https://tomerwolgithub.github.io/monaco) and read the [paper](https://tomerwolgithub.github.io/monaco) to learn more about the MoNaCo benchmark, which is available on [HuggingFace](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark).
+We invite researchers to evaluate the capabilities of LLMs and retrievers on MoNaCo and to provide their feedback. Visit our [website](https://tomerwolgithub.github.io/monaco) and read the [paper](https://tomerwolgithub.github.io/monaco/#paper) to learn more about the MoNaCo benchmark, which is available on [HuggingFace](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark).
 
