@@ -17,29 +17,9 @@ x | Deepseek-R1 | 2025-04 | [🌐](https://huggingface.co/deepseek-ai/DeepSeek-R
 x | GPT-4 Turbo (few-shot) | 2024-05 | [🌐](https://platform.openai.com/docs/models/gpt-4-turbo) | 48.58 | 56.26 | 46.81
 x | Deepseek-V3 (few-shot) | 2025-05 | [🌐](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 55.04 | 62.31 | 53.37
 x | Llama 3.1-405B (few-shot) | 2025-03 | [🌐](https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct) | 51.39 | 55.97 | 51.20
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
-x | X | x | [🌐](x) | 55.04 | 65.02 | 58.14
+x | Llama 3-70B (few-shot) | 2024-05 | [🌐](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | 47.00 | 55.15 |  45.12
+x | Qwen 2.5-72B (few-shot) | 2025-05 | [🌐](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | 47.05 | 53.84 | 45.48
+x | Qwen 2-72B (few-shot) | 2024-07 | [🌐](https://huggingface.co/Qwen/Qwen2-7B-Instruct) | 43.92 | 50.80 | 42.89
+
 
 
