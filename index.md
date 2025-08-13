@@ -140,31 +140,7 @@ Tomer Wolfson, Harsh, Trivedi, Mor Geva, Yoav Goldberg, Dan Roth, Tushar Khot, A
 
 ## **Leaderboard**
 
-### **Submission**
-Evaluating predictions for the hidden test set is done via the [AI2 Leaderboard page](https://leaderboard.allenai.org/).
-Log on to the leaderboard website and follow the submission instructions.
-* **[Break Leaderboard](https://leaderboard.allenai.org/break/)**
-* **[Break High-Level Leaderboard](https://leaderboard.allenai.org/break_high_level/)**  
-
-*Given the GED metric is computed by an approximation algorithm, the evaluation may take several hours. The approximation algorithm also results in slightly different GED values than the paper.*
-
-### **Results**
-
-**Break**
-
-Rank | Submission | Created | EM Dev. | EM Test | SARI Dev. | SARI Test | GED Dev. | GED Test 
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-1 | Curriculum-trained CopyNet <br>*Chris Coleman and Alex Reneau,*<br>*Northwestern University* | Jul 1, 2020 | **`_`**  | **`0.163`** | **`_`**  | **`0.757`** | **`_`**  | **`0.271`** 
-2 | CopyNet <br>*([Wolfson et al., TACL 2020](https://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | **`0.154`**  | `0.157` | **`0.748`**  | `0.746` | **`0.318`**  | `0.322` 
-3 | RuleBased <br>*([Wolfson et al., TACL 2020](https://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | `0.002`  | `0.003` | `0.508`  | `0.506` | `0.799`  | `0.802`  
-
-
-**Break High-level**
-
-Rank | Submission | Created | EM Dev. | EM Test | SARI Dev. | SARI Test | GED Dev. | GED Test 
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-1 | CopyNet <br>*([Wolfson et al., TACL 2020](https://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | **`0.081`**  | **`0.083`** | **`0.722`**  | **`0.722`** | **`0.319`**  | **`0.316`** 
-2 | RuleBased <br>*([Wolfson et al., TACL 2020](hhttps://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | `0.010`  | `0.012` | `0.554`  | `0.554` | `0.659`  | `0.652`  
+For the most up-to-date results please refer to out [MoNaCo Leaderboard page](https://tomerwolgithub.github.io/monaco/leaderboard.html).
 
 
 ## **Download**
