@@ -12,7 +12,7 @@ MoNaCo addresses this gap, presenting realistic questions whose solution spans u
 
 <center>
     <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_01.png"> 
-        <img src="images/blog/blogpost_01.png" height="500">
+        <img src="images/blog/blogpost_01.png" height="300">
      </a>
 </center>
 
@@ -23,7 +23,7 @@ We also observe that as solutions to questions entail reasoning over more interm
 
 <center>
     <a href="https://tomerwolgithub.github.io/monaco/images/blog/blogpost_02.png"> 
-        <img src="images/blog/blogpost_02.png" height="500">
+        <img src="images/blog/blogpost_02.png" height="200">
      </a>
 </center>
 
