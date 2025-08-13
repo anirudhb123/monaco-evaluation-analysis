@@ -1,4 +1,4 @@
-## **Break**: Mapping Natural Language Questions to their Meaning Representation
+## **MoNaCo: More Natural Questions for Reasoning Across Dozens of Documents**
 
 - *Check out [our blogpost](https://medium.com/ai2-blog/break-mapping-natural-language-questions-to-their-meaning-representation-31bb753701d6) at the official [AI2 blog!](https://medium.com/ai2-blog)*  
 
