@@ -12,14 +12,9 @@ For more details on Break, please refer to our [TACL 2025 paper](#paper), and to
       </a>
 </center>
 
-## **Question-Answering Datasets**
+## **Overview**
 
-The Break dataset contains questions from the following 10 datasets:  
-* **Semantic Parsing**: [Academic](https://github.com/jkkummerfeld/text2sql-data), [ATIS](https://github.com/jkkummerfeld/text2sql-data), [GeoQuery](https://github.com/jkkummerfeld/text2sql-data), [Spider](https://yale-lily.github.io/spider)
-* **Visual Question Answering**: [CLEVR-humans](https://cs.stanford.edu/people/jcjohns/clevr/), [NLVR2](http://lil.nlp.cornell.edu/nlvr/)
-* **Reading Comprehension (and KB-QA)**: [ComQA](http://qa.mpi-inf.mpg.de/comqa/), [ComplexWebQuestions](https://www.tau-nlp.org/compwebq), [DROP](https://allennlp.org/drop), [HotpotQA](https://hotpotqa.github.io/)  
-
-For the full dataset statistics please refer to our [repository](https://github.com/allenai/Break).
+text
 
 
 ## **Paper**
@@ -144,9 +139,6 @@ Rank | Submission | Created | EM Dev. | EM Test | SARI Dev. | SARI Test | GED De
 1 | CopyNet <br>*([Wolfson et al., TACL 2020](https://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | **`0.081`**  | **`0.083`** | **`0.722`**  | **`0.722`** | **`0.319`**  | **`0.316`** 
 2 | RuleBased <br>*([Wolfson et al., TACL 2020](hhttps://arxiv.org/abs/2001.11770v1))* | Feb 1, 2020 | `0.010`  | `0.012` | `0.554`  | `0.554` | `0.659`  | `0.652`  
 
-## **Explore**
-
-To view (many) more question decomposition examples, [explore Break](/explore.md).
 
 ## **Download**
 
