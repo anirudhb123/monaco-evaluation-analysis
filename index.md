@@ -3,7 +3,7 @@
 MoNaCo, a benchmark of More Natural and Complex questions to evaluate the question-answering (QA) skills of language models. MoNaCo contains [1,315](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark) time-consuming questions whose solutions involve combining and reasoning over information spanning across dozens of Wikipedia tables and passages. Compared to traditional QA benchmarks, the scope of MoNaCo questions is much broader. To solve them, models must be proficient at decomposing complex queries, locating hundreds of pieces of information, and reasoning, combining, and aggregating this data effectively.
 
 <center>
-    <a href="https://allenai.github.io/Break/images/qdmr01.png"> 
+    <a href="https://allenai.github.io/monaco/images/monaco_logo.jpeg"> 
         <img src="images/monaco_logo.jpeg" height="170">
       </a>
 </center>
@@ -11,7 +11,7 @@ MoNaCo, a benchmark of More Natural and Complex questions to evaluate the questi
 This benchmark was created by a team of [NLP researchers](#authors) at the [University of Pennsylvania](https://cogcomp.seas.upenn.edu/), the [Allen Institute for AI](https://allenai.org/), [Tel Aviv Univeristy](https://mega002.github.io/) and [Bar-Ilan University](https://nlp.biu.ac.il/~rtsarfaty/onlp).
 
 
-For more details on Break, please refer to our [TACL 2025 paper](#paper), and to our [Ai2 blogpost](#paper).  
+For more details on MoNaCo, please refer to our [TACL 2025 paper](#paper), and to our [Ai2 blogpost](#paper).  
 
 
 
