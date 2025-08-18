@@ -50,7 +50,7 @@ While our paper centers on QA evaluation, the breadth and depth of MoNaCo questi
 
 ## **Paper**
 
-[**MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents**](https://arxiv.org/abs/2001.11770v1)  
+[**MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents**](https://arxiv.org/abs/2508.11133)  
 Tomer Wolfson, Harsh, Trivedi, Mor Geva, Yoav Goldberg, Dan Roth, Tushar Khot, Ashish Ashish Sabharwal and Reut Tsarfaty  
 *To appear in the Transactions of the Association for Computational Linguistics (TACL), 2025*  
 
