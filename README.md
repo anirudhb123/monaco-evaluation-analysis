@@ -4,7 +4,7 @@
 MoNaCo is a human written benchmark of natural complex questions annotated with their full reasoning chains, intermediate questions, answers and evidence. MoNaCo has 1,315 complex questions with each question requiring evidence from 44.3 different Wiki pages on average.
 This repository hosts the MoNaCo website and leaderboard.
 
-For more details check out our TACL paper ["MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents"](https://arxiv.org/abs/2001.11770v1), and [website](https://tomerwolgithub.github.io/monaco/).  
+For more details check out our TACL paper ["MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents"](https://arxiv.org/abs/2508.11133), and [website](https://tomerwolgithub.github.io/monaco/).  
 For the MoNaCo data, please refer to our HuggingFace repository at: [https://huggingface.co/datasets/allenai/MoNaCo_Benchmark](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark).
 
 
@@ -12,20 +12,20 @@ For the MoNaCo data, please refer to our HuggingFace repository at: [https://hug
 * **Key Links**
 	* **MoNaCo Dataset**: [Download](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark)
 	* **Paper**: ["MoNaCo: More Natural and Complex Questions for Reasoning Across Dozens of Documents"
-](https://arxiv.org/abs/2001.11770v1)
+](https://arxiv.org/abs/2508.11133)
 	* **Code**: Coming soon
 	* **Leaderboard**:  
-		* [Leaderboard table](https://leaderboard.allenai.org/break/)
+		* [Leaderboard table](https://tomerwolgithub.github.io/monaco/leaderboard.html)
 		* LLM-judge prompt: [https://github.com/tomerwolgithub/monaco/tree/main/prompts](https://github.com/tomerwolgithub/monaco/tree/main/prompts)
 	* **Website**: [https://tomerwolgithub.github.io/monaco/](https://tomerwolgithub.github.io/monaco/)
 	* **Huggingface dataset**: [https://huggingface.co/datasets/allenai/MoNaCo_Benchmark](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark)
 
 
 ### Changelog
-- `8/18/2020` The codebase will be released soon.
-- `8/18/2020` MCheck our the official [Ai2 blogpost](https://arxiv.org/abs/2001.11770v1).
-- `8/18/2020` MoNaCo has been accepted to appear in TACL, check our preprint [available here](https://arxiv.org/abs/2001.11770v1).
-- `8/18/2020` The full Break dataset has been released see the [HuggingFace dataset](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark)!
+- `8/17/2025` The codebase will be released soon.
+- `8/17/2025` Check our the official [Ai2 blogpost](https://arxiv.org/abs/2001.11770v1).
+- `8/17/2025` MoNaCo has been accepted to appear in TACL, check our preprint [available here](https://arxiv.org/abs/2001.11770v1).
+- `8/17/2025` The full Break dataset has been released see the [HuggingFace dataset](https://huggingface.co/datasets/allenai/MoNaCo_Benchmark)!
 
 ## Citation
 
