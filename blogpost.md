@@ -1,6 +1,6 @@
 ## **MoNaCo: More Natural Questions for Reasoning Across Dozens of Documents**
 
-- *Check out [our blogpost at the official Ai2 blog!](http://allenai.org/blog/monaco)*  
+- *[Check out our blogpost at the official Ai2 blog!](http://allenai.org/blog/monaco)*  
 
 We introduce **MoNaCo**, a benchmark of **Mo**re **Na**tural and **Co**mplex questions to evaluate the question-answering (QA) skills of language models. MoNaCo contains 1,315 time-consuming questions whose solutions involve combining and reasoning over information spanning across dozens of Wikipedia tables and passages.
 
