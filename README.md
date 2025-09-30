@@ -141,19 +141,6 @@ python run_oracle_retrieval_scalable.py --model your-model-name
 - Efficient processing of large document collections
 - Memory-optimized for analysis of 1000+ questions
 
-## 📝 Citation
-
-If you use this analysis toolkit in your research, please cite:
-
-```bibtex
-@misc{monaco-evaluation-analysis,
-  title={Monaco Evaluation Analysis: LLM Performance Breakdown Tools},
-  author={Anirudh Bharadwaj},
-  year={2025},
-  url={https://github.com/anirudhb123/monaco-evaluation-analysis}
-}
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests for:
