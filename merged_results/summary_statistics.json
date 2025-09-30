@@ -1,0 +1,20 @@
+{
+  "total_questions": 1274,
+  "average_judge_score": 0.7267056937439914,
+  "median_judge_score": 0.9225384615000001,
+  "std_judge_score": 0.37162767562210786,
+  "perfect_scores": 540,
+  "zero_scores": 201,
+  "by_source_file": {
+    "count": {
+      "monaco_oracle_gpt-5_315q_job129967_20250904_003622.json": 283,
+      "monaco_oracle_gpt-5_500q_job129965_20250904_003246.json": 494,
+      "monaco_oracle_gpt-5_500q_job129966_20250904_003552.json": 497
+    },
+    "mean": {
+      "monaco_oracle_gpt-5_315q_job129967_20250904_003622.json": 0.7391211701113624,
+      "monaco_oracle_gpt-5_500q_job129965_20250904_003246.json": 0.712737663003737,
+      "monaco_oracle_gpt-5_500q_job129966_20250904_003552.json": 0.7335198333289406
+    }
+  }
+}

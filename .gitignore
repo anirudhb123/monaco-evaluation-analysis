@@ -1,0 +1,46 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+logs/
+*.log
+
+# Temporary and test files
+oracle_test_10.json
+comprehensive_analysis_data.csv
+*.backup
+
+# Development analysis scripts (keep locally, don't track)
+create_sheets_friendly_csv.py
+merge_and_analyze.py
+create_detailed_csv.py
+extract_worst_from_analysis.py
+
+# Development directories
+zero_f1_questions/
+worst_examples_analysis/
+worst_examples_detailed/
+
+# Old results directory (superseded by analysis_results_*)
+results/
+
+# Old shell scripts
+run_gpt41_reevaluation.sh
+run_monaco_oracle.sh
+requirements_scalable.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
